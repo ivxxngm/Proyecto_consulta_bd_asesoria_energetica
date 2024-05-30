@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Asesoría Energética</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Asesoría Energética</h1>
+        <form id="searchForm">
+            <div class="form-group">
+                <label for="cifInput">CIF:</label>
+                <input type="text" id="cifInput" class="form-control" name="cif">
+            </div>
+            <div class="form-group">
+                <label for="nombreInput">Nombre:</label>
+                <input type="text" id="nombreInput" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+                <label for="comercializadoraInput">Comercializadora:</label>
+                <input type="text" id="comercializadoraInput" class="form-control" name="comercializadora">
+            </div>
+            <div class="form-group">
+                <label for="estadoInput">Estado:</label>
+                <input type="text" id="estadoInput" class="form-control" name="estado">
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+        <div id="results"></div>
+        <canvas id="estadoChart" width="400" height="400"></canvas>
+        <canvas id="pagadoChart" width="400" height="400"></canvas>
+        <canvas id="comercializadoraChart" width="400" height="400"></canvas>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
