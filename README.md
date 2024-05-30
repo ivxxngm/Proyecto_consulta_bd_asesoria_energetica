@@ -24,11 +24,5 @@ HTML5
 CSS3 (para estilos opcionales)
 JavaScript (con la biblioteca Chart.js para la generación de gráficos)
 API para obtener datos de contratos de energía (debe proporcionarse externamente)
-Contribución
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-Haz un fork del repositorio.
-Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y haz commit de ellos (git commit -am 'Agrega una nueva funcionalidad').
-Sube tus cambios a tu repositorio fork (git push origin feature/nueva-funcionalidad).
-Crea un nuevo Pull Request.
+
